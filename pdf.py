@@ -21,7 +21,7 @@ if uploaded_file is not None:
 
 st.header('Lets go')
           
-Contact_app = '''
+contact_app = '''
          
 
 <div id="adobe-dc-view" style="height: 360px; width: 500px;"></div>
