@@ -21,7 +21,11 @@ st.markdown('''
 
     Docs'''
             
-           )
+           )\
+st.header('Let's go')
+          
+Contact_app = '''
+         
 
 <div id="adobe-dc-view" style="height: 360px; width: 500px;"></div>
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
@@ -38,3 +42,8 @@ st.markdown('''
     });
   });
 </script>
+'''
+        
+          
+          
+st.markdown(contact_app, unsafe_allow_html=True)
