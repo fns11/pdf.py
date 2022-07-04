@@ -17,7 +17,12 @@ if uploaded_file is not None:
      # Can be used wherever a "file-like" object is accepted:
      dataframe = pd.read_csv(uploaded_file)
      st.write(dataframe)
-     
+st.markdown('''
+
+    Docs'''
+            
+           )
+
 <div id="adobe-dc-view" style="height: 360px; width: 500px;"></div>
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 <script type="text/javascript">
