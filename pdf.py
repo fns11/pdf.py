@@ -43,4 +43,4 @@ contact_app = '''
         
           
           
-st.markdown(contact_app, unsafe_allow_html=False)
+st.markdown(contact_app, unsafe_allow_html=True)
