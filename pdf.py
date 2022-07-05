@@ -38,5 +38,7 @@ contact_app = '''
     <script type="text/javascript" src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 </body>
 </html>
+'''
+st.markdown(contact_app, unsafe_allow_html=True)
 
 
