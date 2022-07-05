@@ -39,4 +39,4 @@ contact_app = '''
 </body>
 </html>
 
-''')
+
