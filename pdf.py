@@ -24,23 +24,20 @@ st.header('Lets go')
 contact_app = '''
          
 
-<div id="adobe-dc-view" style="height: 360px; width: 500px;"></div>
-<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-<script type="text/javascript">
-  document.addEventListener("adobe_dc_view_sdk.ready", function(){
-    var adobeDCView = new AdobeDC.View({clientId: "<YOUR_CLIENT_ID>", divId: "adobe-dc-view"});
-    adobeDCView.previewFile({
-      content:{ location:
-        { url: "https://documentcloud.adobe.com/view-sdk-demo/PDFs/Bodea%20Brochure.pdf"}},
-      metaData:{fileName: "Intake Packet SSVF1.pdf"}
-    },
-    {
-      embedMode: "SIZED_CONTAINER"
-    });
-  });
-</script>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adobe Document Services PDF Embed API Sample</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1"/>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body style="margin: 0px">
+    <div id="adobe-dc-view"></div>
+    <script type="text/javascript" src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+</body>
+</html>
+
 '''
-        
-          
-          
-st.markdown(contact_app, unsafe_allow_html=True)
+)
